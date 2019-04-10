@@ -1,4 +1,4 @@
-# Writer's Guide
+# Writing Posts
 
 Learn how to do more than publish plain text in this guide for writers.
 
