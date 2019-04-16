@@ -8,7 +8,7 @@ This repository contains all documentation for running and using WriteFreely.
 
 ## Format
 
-All documentation is written in plain text / Markdown. In the near future, it'll be directly used to generate nice-looking documentation on [WriteFreely.org](https://writefreely.org).
+All documentation is written in plain text / Markdown. It generates [documentation pages](https://writefreely.org/docs) on WriteFreely.org.
 
 ## Contributing
 
