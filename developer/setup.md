@@ -18,7 +18,6 @@ go get -d github.com/writeas/writefreely/cmd/writefreely
 export GO111MODULE=on
 
 make build   # Compile the application
-./cmd/writefreely/writefreely --config # Create configuration file
-make install # Generates encryption keys; installs LESS compiler
-make run     # Runs the application
+make install # Config, generate keys, setup database, install LESS compiler
+make run     # Run the application
 ```
