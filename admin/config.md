@@ -64,6 +64,7 @@ These fields can always be set, but only apply to **multi-user** instances.
 
 | Field | Description | Example value |
 | ----- | ----------- | ------- |
+| `landing` | The default landing route for an unauthenticated user | /login |
 | `open_registration` | Whether or not anyone can register via the landing page | true |
 | `max_blogs` | Maximum number of blogs a single user can create under one account | 5 |
 | `local_timeline` | Whether or not the instance reader (and the _Public_ option on blogs) is enabled | true |
