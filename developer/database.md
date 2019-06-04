@@ -9,15 +9,19 @@ Filled when someone logs in with the API.
 Populated when the About and Privacy page are edited.
 
 ## `appmigrations`
+All database migrations that have been run on this database.
 
 ## `collectionattributes`
 Used for additional properties on collections.
 
 ## `collectionkeys`
+Public / private keypairs for all collections on the instance. Used to sign ActivityPub / fediverse requests.
 
 ## `collectionpasswords`
+Salted and hashed passwords for password-protected collections.
 
 ## `collectionredirects`
+Data about former `alias`es for collections that have had them changed, so that the old `alias` redirects visitors to the new one.
 
 ## `collections`
 Table that contains collections (i.e. "Blogs").
@@ -76,14 +80,19 @@ Table that contains data for posts within collections.
 * `content`: *text*.  **Cannot be null**.  The content of the post in plain text.
 
 ## `remotefollows`
+Data about which remote, i.e. ActivityPub / fediverse, users are following which collections.
 
 ## `remoteuserkeys`
+Public keys of all remote users.
 
 ## `remoteusers`
+Data needed to communicate with remote users.
 
 ## `userattributes`
+Additional attributes on users.
 
 ## `userinvites`
+User invite codes and metadata.
 
 ## `users`
 Table that contains user data.
@@ -99,4 +108,4 @@ Table that contains user data.
 * `created`: *datetime*.  **Cannot be null**.  Date and time account was created.
 
 ## `usersinvited`
-
+Data about which users were brought in by which user-invite.
