@@ -3,10 +3,10 @@
 The following is a description of the various database tables and attributes.  (This document is not yet complete).
 
 ## `accesstokens`
-Filled when someone logs in with the API.
+Generated user access tokens for accessing the API.
 
 ## `appcontent`
-Populated when the About and Privacy page are edited.
+Instance-level dynamic content, usually created via the admin dashboard, such as the About and Privacy pages.
 
 ## `appmigrations`
 All database migrations that have been run on this database.
@@ -59,13 +59,13 @@ Table that contains data for posts within collections.
 
 * `language`: *char2*. The post’s language.
 
-* `rtl`: *tinyint(1)*. Value is 1 if language is right to left (e.g. Arabic).  Otherwise null.
+* `rtl`: *tinyint(1)*. Value is 0 if the post is written left-to-right, 1 if written right-to-left (e.g. Arabic), and null if user never explicitly provided this value.
 
 * `privacy`: **Not currently used.**
 
 * `owner_id`: *int(6)*.  Id of the author.  Id is instance-specific.
 
-* `collection_id`: *int(6)*.  Id of the blog.  Id is instance-specific.
+* `collection_id`: *int(6)*.  Id of the blog.  Id is instance-specific. Null if post is a Draft.
 
 * `pinned_position`: *tinyint(1)*.  The order the post is "pinned" (zero-indexed).  Null if not pinned.
 
@@ -103,7 +103,7 @@ Table that contains user data.
 
 * `password`: *char(60)*.  **Cannot be null**.  Salted and hashed password.
 
-* `email`: *varbinary(255)*.  Email (null if not given by user).
+* `email`: *varbinary(255)*.  Encrypted email address. (null if not given by user).
 
 * `created`: *datetime*.  **Cannot be null**.  Date and time account was created.
 
