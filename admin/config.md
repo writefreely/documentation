@@ -58,12 +58,12 @@ The following fields are valid in the `[app]` section of your configuration file
 | `min_username_len` | Minimum required length of usernames | 3 |
 | `federation` | Whether or not federation via ActivityPub is enabled | true |
 | `public_stats` | Whether or not usage stats are made public via NodeInfo | true |
-| `private` | Whether or not the entire instance is private. Right now, this sets a `private` flag in NodeInfo; in the future, this will probably affect discoverability, access to blogs, etc. | false |
 
 These fields can always be set, but only apply to **multi-user** instances.
 
 | Field | Description | Example value |
 | ----- | ----------- | ------- |
+| `private` | When enabled, all blogs and posts will only be readable by other authenticated users on the instance. | false |
 | `landing` | The default landing route for an unauthenticated user | /login |
 | `open_registration` | Whether or not anyone can register via the landing page | true |
 | `max_blogs` | Maximum number of blogs a single user can create under one account | 5 |
