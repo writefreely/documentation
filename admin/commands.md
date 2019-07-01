@@ -21,6 +21,22 @@ Use these flags to perform certain actions as part of the setup process.
 | `--gen-keys` | Generate encryption keys | No |
 | `--init-db` | Initialize the database by creating the necessary tables | No |
 
+### Setup options
+
+#### `--config --sections="..."`
+
+You can optionally choose which configuration sections to walk through during the configuration process with the `--sections` flag. Values are space-separated and must be one of the following:
+
+* `app`
+* `db`
+* `server`
+
+Example usage:
+
+```
+writefreely --config --sections="app db server"
+```
+
 ## Upgrade
 
 These flags assist with upgrading an instance.
