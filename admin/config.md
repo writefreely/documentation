@@ -16,6 +16,7 @@ The following fields are valid in the `[server]` section of your configuration f
 | `bind` | Address to bind the application to | localhost |
 | `tls_cert_path` | TLS certificate path. If supplied with `tls_key_path`, requests will be served on port 443. | _None_ |
 | `tls_key_path` | TLS private key path. If supplied with `tls_cert_path`, requests will be served on port 443. | _None_ |
+| `autocert` | Enable automatic certificate generation with Let's Encrypt. Requires `tls_cert_path` and `tls_key_path` to not be empty, and standalone server mode, i.e. `port` set to `443`. | `false` |
 | `templates_parent_dir` | The parent directory containing the `templates` directory | _(current directory)_ |
 | `static_parent_dir` | The parent directory containing the `static` directory | _(current directory)_ |
 | `pages_parent_dir` | The parent directory containing the `pages` directory | _(current directory)_ |
