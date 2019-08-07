@@ -70,3 +70,4 @@ These fields can always be set, but only apply to **multi-user** instances.
 | `max_blogs` | Maximum number of blogs a single user can create under one account | 5 |
 | `local_timeline` | Whether or not the instance reader (and the _Public_ option on blogs) is enabled | true |
 | `user_invites` | Who is allowed to send user invites, if anyone. A blank value disables invites for all users. Valid choices: _empty_, `user`, or `admin` | user |
+| `default_visibility` | The default visibility setting for newly-created blogs. Valid choices: `unlisted` (default), `public`, or `private` | public |
