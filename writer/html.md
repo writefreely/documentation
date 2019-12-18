@@ -30,6 +30,7 @@ Along with plaintext and Markdown, you can also format text on WriteFreely with 
 
 <blockquote>This is a blockquote.</blockquote>
 ```
+
 <h1>Header</h1>
 
 <h2>Header</h2>
@@ -66,6 +67,7 @@ Along with plaintext and Markdown, you can also format text on WriteFreely with 
 <a href="https://write.as">Link</a>
 
 ```
+
 <strong>Bold</strong>
 
 <em>Italics</em>
