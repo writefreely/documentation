@@ -86,10 +86,10 @@ Along with plaintext and Markdown, you can also format text on WriteFreely with 
 ## Multimedia
 
 ```
-<video src="https://cdn.glitch.com/db7ab5d8-dd97-466b-8180-676147e8fc40%2FUsing%20Write.as%20Themes.mp4?" controls>
+<video src="https://cdn.glitch.com/db7ab5d8-dd97-466b-8180-676147e8fc40%2FUsing%20Write.as%20Themes.mp4?" controls></video>
 ```
 
-<video src="https://cdn.glitch.com/db7ab5d8-dd97-466b-8180-676147e8fc40%2FUsing%20Write.as%20Themes.mp4?" controls>
+<video src="https://cdn.glitch.com/db7ab5d8-dd97-466b-8180-676147e8fc40%2FUsing%20Write.as%20Themes.mp4?" controls></video>
 
 
 ```
@@ -100,14 +100,14 @@ Along with plaintext and Markdown, you can also format text on WriteFreely with 
 
 
 ```
-<audio src="https://cdn.glitch.com/db7ab5d8-dd97-466b-8180-676147e8fc40%2F%2333%20-%20Reflection%2014%20about.mp3" controls>
+<audio src="https://cdn.glitch.com/db7ab5d8-dd97-466b-8180-676147e8fc40%2F%2333%20-%20Reflection%2014%20about.mp3" controls></audio>
 ```
 
-<audio src="https://cdn.glitch.com/db7ab5d8-dd97-466b-8180-676147e8fc40%2F%2333%20-%20Reflection%2014%20about.mp3" controls>
+<audio src="https://cdn.glitch.com/db7ab5d8-dd97-466b-8180-676147e8fc40%2F%2333%20-%20Reflection%2014%20about.mp3" controls></audio>
 
 
 ```
-<img src="https://i.snap.as/2HKPL0c.png"></img>
+<img src="https://i.snap.as/2HKPL0c.png" />
 ```
 
-<img src="https://i.snap.as/2HKPL0c.png"></img>
+<img src="https://i.snap.as/2HKPL0c.png" />
