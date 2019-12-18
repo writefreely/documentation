@@ -83,13 +83,15 @@ Along with plaintext and Markdown, you can also format text on WriteFreely with 
 
 <a href="https://write.as">Link</a>
 
-## Multimedia
+## Video
 
 ```
 <video src="https://cdn.glitch.com/db7ab5d8-dd97-466b-8180-676147e8fc40%2FUsing%20Write.as%20Themes.mp4?" controls></video>
 ```
 
 <video src="https://cdn.glitch.com/db7ab5d8-dd97-466b-8180-676147e8fc40%2FUsing%20Write.as%20Themes.mp4?" controls></video>
+
+## Iframe
 
 
 ```
@@ -98,6 +100,8 @@ Along with plaintext and Markdown, you can also format text on WriteFreely with 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HJT8yYf-XPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Audio
+
 
 ```
 <audio src="https://cdn.glitch.com/db7ab5d8-dd97-466b-8180-676147e8fc40%2F%2333%20-%20Reflection%2014%20about.mp3" controls></audio>
@@ -105,6 +109,7 @@ Along with plaintext and Markdown, you can also format text on WriteFreely with 
 
 <audio src="https://cdn.glitch.com/db7ab5d8-dd97-466b-8180-676147e8fc40%2F%2333%20-%20Reflection%2014%20about.mp3" controls></audio>
 
+## Image
 
 ```
 <img src="https://i.snap.as/2HKPL0c.png" />
