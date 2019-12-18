@@ -1,4 +1,4 @@
-# HTML
+# Adding HTML
 
 Along with plaintext and Markdown, you can also format text on WriteFreely with HTML. Here is the supported HTML you can use in your posts.
 
