@@ -4,11 +4,11 @@ WriteFreely supports federation via ActivityPub, a protocol spoken by popular pl
 
 ## Finding your handle
 
-To find your handle, go into your blog's settings. Under _URL_ will be your blog's fediverse handle, following the format blog@instance. 
+To find your handle, go into your blog's settings. Under _URL_ will be your blog's fediverse handle, following the format `@blog@instance.com`.
 
 ## Following your blog
 
-To follow your blog, open Mastodon, Pleroma, or your other favorite ActivityPub-powered platform, and search for the fediverse handle from your settings page. (**Note**: you can also search for the blog URL, instead of the handle.) Finally, click the "Follow" button. This will make sure you receive future posts in your timeline, where you can then favorite or boost them to your followers.
+To follow your blog, open Mastodon, Pleroma, or your other favorite ActivityPub-powered platform, and search for the fediverse handle from your settings page. (**Note**: you can also search for the blog URL, instead of the handle.) Finally, click the "Follow" button. This will make sure you receive future posts in your timeline, where you can then _favorite_ or _boost_ them to your followers.
 
 ## Note about changing your username
 
