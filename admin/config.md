@@ -13,6 +13,7 @@ The following fields are valid in the `[server]` section of your configuration f
 | Field | Description | Default |
 | ----- | ----------- | ------- |
 | `port` | Port for the application to serve HTTP requests on | _None_ |
+| `hidden_host` | Host name to be used if served as a Tor Hidden service | _None_ |
 | `bind` | Address to bind the application to | localhost |
 | `tls_cert_path` | TLS certificate path. If supplied with `tls_key_path`, requests will be served on port 443. If `autocert` is `true`, certificates and keys will be stored in the given directory. | _None_ |
 | `tls_key_path` | TLS private key path. If supplied with `tls_cert_path`, requests will be served on port 443. | _None_ |
