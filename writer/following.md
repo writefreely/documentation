@@ -16,7 +16,7 @@ You can also enter the normal blog URL into a feed reader, and most will automat
 
 ### Following a Blog's Hashtag via RSS
 
-If you want to filter a WriteFreely blog's content by hashtag, you can follow posts that only use those hashtags. All you need to do is take a blog's hashtag url and add "/feed/" to the end.
+If you want to filter a WriteFreely blog's content by hashtag, you can follow posts that only use those hashtags. All you need to do is add "/feed/" to the end a blog's hashtag URL.
 
 [blog.writefreely.org/tag:writefreely/feed/](https://blog.writefreely.org/tag:writefreely/feed/)
 
