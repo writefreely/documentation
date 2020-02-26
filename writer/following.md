@@ -1,8 +1,8 @@
-# Following a WriteFreely Blog
+# Following a Blog
 
 Writefreely has built in ways to make it easier for people to follow your blog.
 
-## Following via RSS
+## RSS
 
 WriteFreely blogs use RSS, allowing people to follow your blog from an RSS supported content aggregator or reader.
 
@@ -20,6 +20,6 @@ If you want to filter a WriteFreely blog's content by hashtag, you can follow po
 
 [blog.writefreely.org/tag:writefreely/feed/](https://blog.writefreely.org/tag:writefreely/feed/)
 
-## Following via ActivityPub
+## ActivityPub
 
 WriteFreely supports federation via ActivityPub, allowing people to follow your blog from popular platforms like Mastodon (an alternative to Twitter). Learn more about how following works with ActivityPub in the [Federation guide](https://writefreely.org/docs/latest/writer/federation).
