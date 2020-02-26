@@ -1,10 +1,10 @@
 # Following a Blog
 
-WriteFreely has built in ways to make it easier for people to follow your blog.
+WriteFreely supports a variety of open protocols to make it easy for people to follow your blog on the open web.
 
 ## RSS
 
-WriteFreely blogs use RSS, allowing people to follow your blog from an RSS supported content aggregator or reader.
+WriteFreely blogs publish RSS feeds, allowing people to follow your blog from an RSS content aggregator or reader.
 
 ### Following a Blog via RSS
 
@@ -12,7 +12,7 @@ To access a WriteFreely blog's RSS feed, add "/feed/" to the end of the blog's U
 
 [blog.writefreely.org/feed/](https://blog.writefreely.org/feed/)
 
-Most feed readers will automatically detect the blog's RSS feed if you simply give them the blog URL, so you can do that too.
+You can also enter the normal blog URL into a feed reader, and most will automatically detect the RSS feed from the blog's metadata.
 
 ### Following a Blog's Hashtag via RSS
 
