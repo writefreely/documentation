@@ -1,6 +1,6 @@
 # Following a Blog
 
-Writefreely has built in ways to make it easier for people to follow your blog.
+WriteFreely has built in ways to make it easier for people to follow your blog.
 
 ## RSS
 
