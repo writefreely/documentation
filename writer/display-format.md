@@ -1,10 +1,10 @@
 # Display Format
 
-WriteFreely gives you the same focused experience when you publish as when you write. Custom display formats allow you to take full control of what your writing looks like.
+WriteFreely gives you the same focused experience when you publish as when you write. Custom display formats allow writers to take full control of what your writing looks like.
 
 ## Getting Started
 
-Go to your _Blogs_ page and select the _Customize_ option under your first blog. Once on the "Customize" page, scroll down to see an option called _Display Format_. This is where you can configure how your posts are shown.
+Go to your _Blogs_ page and select the _Customize_ option under your first blog. Once on the "Customize" page, scroll down to see an option called _Display Format_. This is where you can configure how your posts are shown. To change, all you need to do is click the checkbox of your preferred display format setting and then scroll down to select "Save Changes."
 
 ![](https://i.snap.as/3jXkk7N.png)
 
@@ -16,7 +16,7 @@ This is the classic ordering for a blog: latest posts at the top with dates show
 
 ![](https://i.snap.as/3d2nAqU.png)
 
-You can use this format for more than traditional blogs. Many utilize it for keeping friends and family updated with their writing or posting about upcoming events.
+You can use this format for more than traditional blogs. Many writers utilize it for keeping friends and family updated with their writing or posting about upcoming events.
 
 ## Novel
 
