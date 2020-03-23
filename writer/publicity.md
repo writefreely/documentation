@@ -4,7 +4,7 @@ Whether you want to keep your writing completely private, limited to a certain a
 
 ## Getting Started
 
-If you go to your blog's _Customize_ page, you will see a section labeled _Publicity_. This is where you can configure who gets to see your blog.
+If you go to your blog's _Customize_ page, you will see a section labeled _Publicity_. This is where you can configure who gets to see your blog. To change, all you need to do is click the checkbox of your preferred publicity setting and then scroll down to select "Save Changes."
 
 ![](https://i.snap.as/4eFNafN.png)
 
@@ -20,7 +20,7 @@ What if you want your blog to be a digital journal? A private space where you ca
 
 ## Password Protected
 
-What if you want your blog to be read only by some people? A place for drafts that only trusted confidants could see? Make your blog “Password Protected”. This meets somewhere in-between “Unlisted” and “Private”. Only the people who have the password you set can read your blog.
+What if you want your blog to be read only by some people? A place for drafts that only trusted confidants could see? Make your blog “Password Protected”. This meets somewhere in-between “Unlisted” and “Private”. Only readers who have the password you set can access your blog.
 
 ## Public
 
@@ -32,6 +32,6 @@ The default publicity setting for blogs varies across WriteFreely sites. Some si
 
 ## Multiple Blogs
 
-If your site supports multiple blogs, you can have three blogs coexist with distinct or overlapping publicity types. These can be for everything from personal to work contexts.
+If your WriteFreely site supports multiple blogs, you can have three blogs coexist with distinct or overlapping publicity types. These can be for everything from personal to work contexts.
 
 Imagine having one blog that is your daily journal (“Private”), one blog for updates that only one person in your team can read (“Password Protected”), and then another where your articles on bug fixes can live for fellow programmers (“Unlisted”).
