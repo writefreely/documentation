@@ -12,8 +12,12 @@ To follow your blog, open Mastodon, Pleroma, or your other favorite ActivityPub-
 
 ## Note about changing your username
 
-If you change your username, a new fediverse handle will be created, and the previous fediverse handle will stop receiving new posts. Anyone who was following your previous fediverse handle will have to follow the new one in order to receive your most recent posts.
+If you change your username, a new fediverse handle will be created. This means the previous fediverse handle will stop receiving new posts. Anyone who was following your previous fediverse handle will have to follow the new one in order to receive your most recent posts.
 
 ## Demo
 
 [Watch this video](https://video.writeas.org/videos/watch/cc55e615-d204-417c-9575-7b57674cc6f3) to see this feature in action.
+
+## ActivityPub Mentions
+
+With federation enabled, you can mention users of Mastodon, Pleroma, and other ActivityPub platforms from your blog. To mention someone, insert `@handle@their.instance` in a blog post. Once published, the fediverse user will see your post mentioning them in their notifications.
