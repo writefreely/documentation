@@ -1,41 +1,31 @@
 # Display Format
 
-WriteFreely gives you the same focused experience when you publish as when you write. Custom display formats allow writers to take full control of what your writing looks like.
+WriteFreely gives you full control over the ordering of your posts, and whether or not your blog shows publish dates.
 
-## Getting Started
+## Overview
 
-Go to your _Blogs_ page and select the _Customize_ option under your first blog. Once on the "Customize" page, scroll down to see an option called _Display Format_. This is where you can configure how your posts are shown. To change, all you need to do is click the checkbox of your preferred display format setting and then scroll down to select "Save Changes."
+First navigate to your _Blogs_ page, and click the _Customize_ button for the blog you want to modify. Next, scroll down to the _Display Format_ section. You'll select your preferred display format here, and click the "Save Changes" button at the bottom of the page to immediately update your blog.
 
 ![The Display Format section with three choices: Blog, Novel, Notebook](https://i.snap.as/3jXkk7N.png)
 
-Let's look at some of the different display format options.
+## Blog Format
 
-## Blog
-
-This is the classic ordering for a blog: latest posts at the top with dates shown. It's perfect for when you want readers to see your most recent post when they arrive on your site.
+This is the classic format for a blog: latest posts first, with dates shown. It's perfect for timely writing, like updates for your friends and family or information on upcoming events.
 
 ![Example blog in the Blog format](https://i.snap.as/3d2nAqU.png)
 
-You can use this format for more than traditional blogs. Many writers utilize it for keeping friends and family updated with their writing or posting about upcoming events.
+## Novel Format
 
-## Novel
-
-This format hides dates and puts things in chronological order, so readers see the first thing you wrote first.
+This format hides publish dates and orders your posts chronologically, so visitors can read in the order you first published in. This is perfect for serial forms of writing, where each post is an individual chapter or section of a larger piece.
 
 ![Example blog in the Novel format](https://i.snap.as/NCswNiR.png)
 
-This is perfect for serial forms of writing. Each post can be an individual chapter or section of a larger piece. Whether it be a story or a work of non-fiction, "Novel" guides people to read the work in the order you intended.
+## Notebook Format
 
-## Notebook
-
-Like "Novel", the dates are hidden. However, this keeps the most recent posts at the top as "Blog" does.
+This format combines the ordering of a Blog with the date format of a Novel. It's made for poets and writers who regularly publish evergreen work, or people who just need a space to jot down ideas.
 
 ![Example blog in the Notebook format](https://i.snap.as/SLtj1b9.png)
 
-Some writing can still be chronological while not needing to be labeled by a date. Poets who want to put out evergreen poetry over time while keeping the home page of their blog fresh for incoming readers would find this format useful. "Notebook" also works for a private blog where you just want to jot down ideas.
-
 ## Multiple Blogs
 
-If your WriteFreely site supports multiple blogs, you can have three blogs with different formats and functions.
-
-The first blog could be where your writing about programming lives ("Blog"), the second blog could be used as a place where you record quotes you find interesting  (“Notebook”), and the third could be for that novel you are writing for NaNoWriMo (“Novel”).
+If your WriteFreely instance supports multiple blogs, you can give each one its own format and function. Your first blog might be where your professional writing lives (Blog format), the second could be the place where you record interesting quotes (Notebook format), and the third might be for your NaNoWriMo novel (Novel format).
