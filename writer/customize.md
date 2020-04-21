@@ -10,7 +10,7 @@ The following stylesheet shows a few basic selectors you'll need in order to cus
 
 You should copy entire sections in the RECIPES section verbatim, as each is a complete customization you might want to make, like centering an image.
 
-```CSS
+```css
 /*
 
     BASICS
