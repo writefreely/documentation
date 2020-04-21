@@ -2,8 +2,6 @@
 
 If you can write CSS, you can customize the appearance of your WriteFreely blog.
 
-<!--more-->
-
 ## Getting Started
 
 All you need to do is go to the _Customize_ settings of your blog. Scroll down to "Custom CSS" and customize your blog from there.
