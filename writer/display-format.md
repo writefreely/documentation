@@ -1,4 +1,4 @@
-# Display Format
+# Choosing a Display Format
 
 WriteFreely gives you full control over the ordering of your posts, and whether or not your blog shows publish dates.
 
