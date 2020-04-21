@@ -6,18 +6,10 @@ If you can write CSS, you can customize the appearance of your WriteFreely blog.
 
 All you need to do is go to the _Customize_ settings of your blog. Scroll down to "Custom CSS" and customize your blog from there.
 
-The following stylesheet shows a few basic selectors you'll need in order to customize certain elements. In the BASICS section, just grab the selectors (e.g. ```#blog-title a:hover```) for your stylesheet — the properties are only there to illustrate what you can do.
-
-You should copy entire sections in the RECIPES section verbatim, as each is a complete customization you might want to make, like centering an image.
+The following stylesheet shows a few basic selectors you'll need in order to customize certain elements. You can just grab the selectors (e.g. `#blog-title a`) for your stylesheet — the properties are only there to illustrate what you can do.
 
 ```css
-/*
-
-    BASICS
-    Use the following CSS rules to change the elements you're trying to customize.
-
-*/
-
+/* Entire page background */
 body {
     background-color: #efefef;
 }
@@ -66,14 +58,11 @@ article p a:hover {
     color: white;
     text-decoration: none;
 }
+```
 
-/*
+Copy these entire sections verbatim, as each is a complete customization you might want to make, like centering an image.
 
-    RECIPES
-    These are common patterns you may want to use on your blog.
-
-*/
-
+```css
 /* Center images */
 img {
     display: block;
