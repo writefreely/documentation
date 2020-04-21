@@ -1,15 +1,22 @@
 # Creating a Blog
 
-WriteFreely makes it easy to publish under multiple identities, so you can separate your writing by audience and express yourself more freely -- all from a single account, with your privacy intact.
+WriteFreely makes it easy to publish multiple blogs from a single account, so you can separate your writing by audience or topic, and express yourself more freely.
 
+## Prerequisites
+
+First, your admin will need to configure your instance for multiple blogs (where `max_blogs` is either `0` or greater than `1`). If you're unable to create a blog with the instructions below, talk to your admin about increasing this limit.
 
 ## Getting Started
 
-The first thing to do is make sure that your instance supports you to create multiple blogs. If it does, then log in to your WriteFreely site and click _Blogs_ on the top menu. Once on your _Blogs_ page, you'll notice a _New Blog_ option under your first blog. Select the "New blog" link and you will be prompted to fill in the name of your blog. Fill in a unique name for it and click the _Create_ button.
+First, navigate to your _Blogs_ page. Under the list of blogs on this page, click "New blog" to start the creation process.
+
+> **Note**: If there is no "New blog" link here, you've reached the limit of blogs you can create under one account. Talk to your admin about expanding that limit.
+
+Enter the title or slug you want for your blog, and click the _Create_ button. A slug will contain only lowercase letters, numbers, and hyphens, and will comprise the URL of this new blog (e.g. `https://example.com/myblog/`). A title can contain any combination of letters, numbers, and symbols, but will automatically be converted into a friendly slug.
 
 ![The blog creation form: a text box and "Create" button](https://i.snap.as/dXfBD3F.png)
 
-Once you click the _Create_ button you will see the blog appear in the list of blogs on your _Blogs_ page. You just created a new blog!
+Once you click _Create_, the new blog will appear on your _Blogs_ page. Now you can publish to it!
 
 ![An example blog listed on the Blogs page](https://i.snap.as/jN0D362.png)
 
