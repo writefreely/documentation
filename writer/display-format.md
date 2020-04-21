@@ -12,17 +12,26 @@ First navigate to your _Blogs_ page, and click the _Customize_ button for the bl
 
 This is the classic format for a blog: latest posts first, with dates shown. It's perfect for timely writing, like updates for your friends and family or information on upcoming events.
 
+* **Order**: reverse-chronological
+* **Dates**: visible
+
 ![Example blog in the Blog format](https://i.snap.as/3d2nAqU.png)
 
 ## Novel Format
 
 This format hides publish dates and orders your posts chronologically, so visitors can read in the order you first published in. This is perfect for serial forms of writing, where each post is an individual chapter or section of a larger piece.
 
+* **Order**: chronological
+* **Dates**: hidden
+
 ![Example blog in the Novel format](https://i.snap.as/NCswNiR.png)
 
 ## Notebook Format
 
 This format combines the ordering of a Blog with the date format of a Novel. It's made for poets and writers who regularly publish evergreen work, or people who just need a space to jot down ideas.
+
+* **Order**: reverse-chronological
+* **Dates**: hidden
 
 ![Example blog in the Notebook format](https://i.snap.as/SLtj1b9.png)
 
