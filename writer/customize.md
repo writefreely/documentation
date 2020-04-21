@@ -86,4 +86,4 @@ header nav .views {
 
 ## Themes
 
-If you want to see how you can customize beyond the basic elements of your blog, you can check out our [Themes blog](https://write.as/themes). Here, you can find custom blogs from the WriteFreely/Write.as community whose themes you can use & remix for your own blog.
+If you want to see how you can customize beyond the basic elements of your blog, you can check out our [Themes blog](https://write.as/themes). Here you can find custom blogs from the WriteFreely/Write.as community whose themes you can use and remix for your own blog.
