@@ -1,4 +1,4 @@
-# Autosave
+# Auto-saving editor
 
 The WriteFreely editor automatically saves your writing, so if you leave the editor without saving, you'll pick up where you left off when you come back.
 
