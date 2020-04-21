@@ -1,4 +1,4 @@
-# Creating a Blog
+# Creating an Additional Blog
 
 WriteFreely makes it easy to publish multiple blogs from a single account, so you can separate your writing by audience or topic, and express yourself more freely.
 
