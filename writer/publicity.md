@@ -28,10 +28,8 @@ What if you want your blog to be part of the larger community? A place where you
 
 ## Defaults
 
-The default publicity setting for blogs varies across WriteFreely sites. Some sites want blogs to be "Unlisted" by default while others "Public." This depends on the purpose of the site along with the site admin's personal preference. Knowing the default helps you understand how to adjust the publicity settings for blogs if needed.
+To find the default publicity blog setting for your WriteFreely site, go to your blogs page (`/me/c`), click the _Customize_ link under your first blog, and then scroll down to _Publicity_. This is the default publicity setting for blogs on the WriteFreely site. You can always change the publicity setting for your blog if needed.
 
 ## Multiple Blogs
 
-If your WriteFreely site supports multiple blogs, you can have three blogs coexist with distinct or overlapping publicity types. These can be for everything from personal to work contexts.
-
-Imagine having one blog that is your daily journal (“Private”), one blog for updates that only one person in your team can read (“Password Protected”), and then another where your articles on bug fixes can live for fellow programmers (“Unlisted”).
+Some WriteFreely sites support multiple blogs. For example, if your site supports three blogs per user, you can have these blogs coexist with distinct or overlapping publicity types. Imagine having one blog that is your daily journal (“Private”), one blog for updates that only one person in your team can read (“Password Protected”), and then another where your articles on bug fixes can live for fellow programmers (“Unlisted”).
