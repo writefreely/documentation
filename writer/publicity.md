@@ -12,7 +12,7 @@ Let's explore the different options provided.
 
 ## Unlisted
 
-This means that anyone with your blog's link can read your posts. Will future-employers be looking at your blog? Do you mainly distribute your posts through social media? Link to your blog on your personal site? “Unlisted” is a great fit in all of these cases.
+The Unlisted setting makes your posts available only to people who have your blog's URL. This is perfect if you're concerned about future employers looking at your blog, or if you mainly distribute your posts through social media or your personal site.
 
 ## Private
 
