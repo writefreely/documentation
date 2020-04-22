@@ -6,7 +6,7 @@ Whether you want to keep your writing completely private, limited to a certain a
 
 If you go to your blog's _Customize_ page, you will see a section labeled _Publicity_. This is where you can configure who gets to see your blog. To change, all you need to do is click the checkbox of your preferred publicity setting and then scroll down to select "Save Changes."
 
-![](https://i.snap.as/4eFNafN.png)
+![Publicity settings for your WriteFreely blog](https://i.snap.as/4eFNafN.png)
 
 Let's explore the different options provided.
 
