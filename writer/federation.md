@@ -20,4 +20,4 @@ If you change your username, a new fediverse handle will be created. This means 
 
 ## ActivityPub Mentions
 
-With federation enabled, you can mention users of Mastodon, Pleroma, and other ActivityPub platforms from your blog. To mention someone, insert `@handle@their.instance` in a blog post. Once published, the fediverse user will see your post mentioning them in their notifications.
+With federation enabled, you can mention users of Mastodon, Pleroma, and other ActivityPub platforms from your blog. To mention someone, insert `@handle@their.instance` in a blog post.
