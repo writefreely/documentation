@@ -59,6 +59,7 @@ The following fields are valid in the `[app]` section of your configuration file
 | `min_username_len` | Minimum required length of usernames | 3 |
 | `federation` | Whether or not federation via ActivityPub is enabled | true |
 | `public_stats` | Whether or not usage stats are made public via NodeInfo | true |
+| `disable_password_auth` | Whether or not new users can sign up via the landing page. Useful if you want to limit new users to your OAuth provider. | false |
 
 These fields can always be set, but only apply to **multi-user** instances.
 
