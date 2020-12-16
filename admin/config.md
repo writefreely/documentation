@@ -79,7 +79,7 @@ There are several possible OAuth configuration blocks for different implementati
 
 ### Generic OAuth
 
-This is for the most general case that should work with many spec-compliant OAuth providers.
+The following fields are valid in the `[oauth.generic]` section of your configuration file, which is for the most general OAuth setup that should work with many spec-compliant OAuth providers.
 
 | Field | Description | Example value |
 | ----- | ----------- | ------- |
