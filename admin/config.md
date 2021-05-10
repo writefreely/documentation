@@ -59,6 +59,7 @@ The following fields are valid in the `[app]` section of your configuration file
 | `min_username_len` | Minimum required length of usernames | 3 |
 | `federation` | Whether or not federation via ActivityPub is enabled | true |
 | `public_stats` | Whether or not usage stats are made public via NodeInfo | true |
+| `disable_password_auth` | Whether or not new users can sign up via the landing page. Useful if you want to limit new users to your OAuth provider. | false |
 
 These fields can always be set, but only apply to **multi-user** instances.
 
@@ -71,3 +72,25 @@ These fields can always be set, but only apply to **multi-user** instances.
 | `local_timeline` | Whether or not the instance reader (and the _Public_ option on blogs) is enabled | true |
 | `user_invites` | Who is allowed to send user invites, if anyone. A blank value disables invites for all users. Valid choices: _empty_, `user`, or `admin` | user |
 | `default_visibility` | The default visibility setting for newly-created blogs. Valid choices: `unlisted` (default), `public`, or `private` | public |
+
+## OAuth
+
+There are several possible OAuth configuration blocks for different implementations.
+
+### Generic OAuth
+
+The following fields are valid in the `[oauth.generic]` section of your configuration file, which is for the most general OAuth setup that should work with many spec-compliant OAuth providers.
+
+| Field | Description | Example value |
+| ----- | ----------- | ------- |
+| `client_id` | The client ID, or client key, associated with WriteFreely in the OAuth provider application. | _(a long string of characters)_ |
+| `client_secret` | The client secret associated with WriteFreely in the OAuth provider application. | _(a long string of characters)_ |
+| `host` | The base url of the OAuth provider application, including the protocol. | https://example.com |
+| `display_name` | The human-readable name of the OAuth service that appears on the login button, will appear as "Log in with [display_name]". | _(name of the application)_ |
+| `callback_proxy` | The url of an inbound proxy that sits in front of the default `/oauth/callback/generic` endpoint. Use if you want the OAuth callback to be somewhere other than that generic location. Default is blank.| https://example.com/whatever/path |
+| `callback_proxy_api` | The url of an outbound proxy to send your OAuth requests through. Default is blank. | https://my-proxy.example.com |
+| `token_endpoint` | The API endpoint of the OAuth provider implementation to obtain an access token by presenting an authorization grant or refresh token. This is a fragment of a url, appended to `host` as described above. | /oauth/token |
+| `inspect_endpoint` | The API endpoint of the OAuth provider that returns basic user info given their authentication information. This is a fragment of a url, appended to `host` as described above. | /oauth/userinfo |
+| `auth_endpoint` | The API endpoint of the OAuth provider that returns an authorization grant. This is a fragment of a url, appended to `host` as described above. | public |
+| `scope` | A scope or set of scopes required by some OAuth providers. This will usually be blank in this config file, and is set to "read_user" by default. | read_user |
+| `allow_disconnect` | Whether or not an individual user is allowed to disconnect this OAuth provider from their account. | false |
