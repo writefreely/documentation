@@ -65,6 +65,7 @@ The following fields are valid in the `[app]` section of your configuration file
 | `public_stats` | Whether or not usage stats are made public via NodeInfo | true |
 | `monetization` | Enables monetization options for users (currently, only [Web Monetization](http://webmonetization.org/)) | true |
 | `disable_password_auth` | Whether or not new users can sign up via the landing page. Useful if you want to limit new users to your OAuth provider. | false |
+| `wf_modesty` | When enabled, this removes much of the WriteFreely branding and explanatory text | false |
 
 These fields can always be set, but only apply to **multi-user** instances.
 
@@ -78,6 +79,13 @@ These fields can always be set, but only apply to **multi-user** instances.
 | `local_timeline` | Whether or not the instance reader (and the _Public_ option on blogs) is enabled | true |
 | `user_invites` | Who is allowed to send user invites, if anyone. A blank value disables invites for all users. Valid choices: _empty_, `user`, or `admin` | user |
 | `default_visibility` | The default visibility setting for newly-created blogs. Valid choices: `unlisted` (default), `public`, or `private` | public |
+
+These fields are experimental and subject to change with little notice. _Using these? Let us know so we can make them a permanent part of WriteFreely!_
+
+| Field | Description | Example value |
+| ----- | ----------- | ------- |
+| `forest` | When enabled, certain unimportant details ("trees") are hidden from admin view, such as the Application Monitor. Meant for managed hosting environments. | false |
+| `chorus` | Indicates this instance is optimized for everyone's collective voice, rather than individuals. Meant for writing groups, company instances, etc. See Chorus docs for more info. | false |
 
 ## OAuth
 
