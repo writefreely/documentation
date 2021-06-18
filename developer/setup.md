@@ -12,9 +12,9 @@ Ready to hack on your site? Here's a quick overview.
 After installing Go and Node.js, run the following commands to build, configure, and run the application.
 
 ```bash
-go get -d github.com/writeas/writefreely/cmd/writefreely
+go get -d github.com/writefreely/writefreely/cmd/writefreely
 
-cd $GOPATH/src/github.com/writeas/writefreely
+cd $GOPATH/src/github.com/writefreely/writefreely
 
 make build   # Compile the application
 make install # Config, generate keys, setup database, install LESS compiler
@@ -26,7 +26,7 @@ make run     # Run the application
 Use the following steps to build WriteFreely without Make. First, get the code:
 
 ```bash
-git clone https://github.com/writeas/writefreely.git
+git clone https://github.com/writefreely/writefreely.git
 cd writefreely
 ```
 
