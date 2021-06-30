@@ -108,3 +108,7 @@ The following fields are valid in the `[oauth.generic]` section of your configur
 | `auth_endpoint` | The API endpoint of the OAuth provider that returns an authorization grant. This is a fragment of a url, appended to `host` as described above. | public |
 | `scope` | A scope or set of scopes required by some OAuth providers. This will usually be blank in this config file, and is set to "read_user" by default. | read_user |
 | `allow_disconnect` | Whether or not an individual user is allowed to disconnect this OAuth provider from their account. | false |
+| `map_user_id` | Use this User ID key in the provider's user info, instead of the default key (`user_id`) | `user_id` |
+| `map_username` | Use this Username key in the provider's user info, instead of the default key (`username`) | `username` |
+| `map_display_name` | Use this Display Name key in the provider's user info, instead of the default key (_none_) | `name` |
+| `map_email` | Use this Email key in the provider's user info, instead of the default key (`email`) | `email` |
