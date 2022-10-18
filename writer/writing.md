@@ -150,7 +150,7 @@ Download the command-line client and run `./writeas new`
 
 ### Syntax-highlighted Code Blocks
 
-<pre><code>```go
+<pre>```go
 package main
 
 import "fmt"
@@ -158,7 +158,7 @@ import "fmt"
 func main() {
 	fmt.Println("Hello, world")
 }
-```</pre></code>
+```</pre>
 
 ```go
 package main
