@@ -33,8 +33,9 @@ cd writefreely
 Next, install the bindata generator and create `bindata.go` (needed for a successful build).
 
 ```bash
-go get -u github.com/jteeuwen/go-bindata/go-bindata
-go-bindata -pkg writefreely -ignore=\\.gitignore schema.sql sqlite.sql
+GOPATH=${GOPATH:-$HOME/go/bin}
+go install github.com/jteeuwen/go-bindata/go-bindata
+${GOPATH}/go-bindata -pkg writefreely -ignore=\\.gitignore schema.sql sqlite.sql
 ```
 
 Finally, build the `writefreely` binary with SQLite support. (Remove `-tags='sqlite'` if you don't need SQLite support.)
@@ -50,17 +51,18 @@ You can now run WriteFreely! But you'll need one more step to generate some asse
 You'll need Node.js and LESS installed to generate WriteFreely static assets. Install LESS:
 
 ```bash
-npm install -g less
+npm install less less-plugin-clean-css
 ```
 
 Next, compile all stylesheets from the `less` directory, creating them in the `static/css/` directory:
 
 ```bash
 cd less
-export CSSDIR=../static/css/
-lessc app.less --clean-css="--s1 --advanced" $(CSSDIR)write.css
-lessc fonts.less --clean-css="--s1 --advanced" $(CSSDIR)fonts.css
-lessc icons.less --clean-css="--s1 --advanced" $(CSSDIR)icons.css
+LESSC=../node_modules/less/bin/lessc
+CSSDIR=../static/css
+$LESSC app.less --clean-css="--s1 --advanced" ${CSSDIR}/write.css
+$LESSC fonts.less --clean-css="--s1 --advanced" ${CSSDIR}/fonts.css
+$LESSC icons.less --clean-css="--s1 --advanced" ${CSSDIR}/icons.css
 ```
 
 Now you can run and distribute WriteFreely! 🎉
