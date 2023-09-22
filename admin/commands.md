@@ -1,6 +1,6 @@
 # Admin Commands
 
-The following application flags allow administrators to perform certain actions on their instance, including installing, upgrading, or maintaining it.
+The following application commands allow administrators to perform certain actions on their instance, including installing, upgrading, or maintaining it.
 
 ## Options
 
@@ -10,16 +10,24 @@ These options can be used in conjunction with any other flags.
 | ---- | ----------- |
 | `-c [filename]` | Config file to use with any other operation |
 | `--debug` | Output debug information in application logs |
+| `-h` | Output help for any command |
 
 ## Setup
 
 Use these flags to perform certain actions as part of the setup process.
 
-| Flag | Description | Interactive? |
-| ---- | ----------- | ------------ |
-| `--config` | Start the configuration process | Yes |
-| `--gen-keys` | Generate encryption keys | No |
-| `--init-db` | Initialize the database by creating the necessary tables | No |
+| Command | Description | Interactive? |
+| ------- | ----------- | ------------ |
+| `config start` | Start the configuration process | Yes |
+| `keys generate` | Generate encryption keys | No |
+| `db init` | Initialize the database by creating the necessary tables | No |
+
+For example, run these commands in order to set up your instance:
+
+```
+writefreely config start
+writefreely keys generate
+```
 
 ### Setup options
 
@@ -41,22 +49,23 @@ writefreely --config --sections="app db server"
 
 These flags assist with upgrading an instance.
 
-| Flag | Description |
-| ---- | ----------- |
-| `--migrate` | Migrate database schema to the latest version |
+| Command | Description |
+| ------- | ----------- |
+| `db migrate` | Migrate database schema to the latest version |
 
-## User administraction
+## User administration
 
 Use these flags to perform actions around users.
 
-| Flag | Description | Interactive? |
-| ---- | ----------- | ------------ |
-| `--create-admin [username]:[password]` | Create an admin user in the database. Fails if admin already exists. | No |
-| `--create-user [username]:[password]` | Create a regular user in the database. Fails if no admin user exists yet. | No |
-| `--reset-pass [username]` | Reset the given user's password | Yes |
+| Command | Description | Interactive? |
+| ------- | ----------- | ------------ |
+| `user create --admin [username]:[password]` | Create an admin user in the database. Fails if admin already exists. | No |
+| `user create [username]:[password]` | Create a regular user in the database. Fails if no admin user exists yet. | No |
+| `user reset-pass [username]` | Reset the given user's password | Yes |
+| `user delete [username]` | Delete the given user, after confirming interactively | Yes |
 
 ## Miscellaneous
 
-| Flag | Description |
-| ---- | ----------- |
+| Command | Description |
+| ------- | ----------- |
 | `-v` | Print WriteFreely version information |
