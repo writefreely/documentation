@@ -41,6 +41,7 @@ These fields only apply to instances using **MySQL**.
 | `host` | Database hostname to connect to | localhost |
 | `port` | Database host port to connect to | 3306 |
 | `tls` | Whether or not to use TLS to connect to database | false |
+| `icu_regex` | Whether to use ICU-compatible regex syntax | false |
 
 These fields only apply to instances using **SQLite**.
 
