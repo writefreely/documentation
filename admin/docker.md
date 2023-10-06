@@ -50,6 +50,8 @@ docker start writefreely-web
 
 Congratulations, your WriteFreely instance should be running under http://localhost:8080! 🎉
 
+Remember that the first user to register in your instance will be the admin user.
+
 ## Using podman compose
 
 The compose file follows best practices for SELinux flags such that it should run correctly under podman compose using the same instructions provided for docker compose.
