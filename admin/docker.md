@@ -63,3 +63,28 @@ The main differences here are that the use of Docker Networks is not required ex
 * You can run `podman run --pod pod_writefreely --network writefreely_writefreely --name writefreely --rm --interactive --tty --mount type=bind,source=./config.ini,destination=/go/config.ini,rw docker.io/writeas/writefreely:latest db init` to initialize the database while in a pod
 
 Once your containers are running, you may then generate systemd service files using [podman-generate-systemd](https://docs.podman.io/en/latest/markdown/podman-generate-systemd.1.html), generate a Kubernetes Deployment using [podman-kube-generate](https://docs.podman.io/en/latest/markdown/podman-kube-generate.1.html), or even better, use [Podman Quadlets](https://docs.podman.io/en/latest/markdown/podman-systemd.unit.5.html) instead of compose files for easy integration with systemd.
+
+## Troubleshooting container issues
+
+WriteFreely will attempt to generate keys if you do not provide your own with
+`writefreely generate keys`. If you fail to mount the volume correctly, you will see:
+
+```
+ERROR: 2023/07/31 02:52:02 main.go:120: init keys: open keys/email.aes256: no such file or directory
+```
+
+If you fail to initialize the database, you will see:
+
+```
+Error 1146: Table 'writefreelydb.collections' doesn't exist.
+```
+
+You should use 0.0.0.0 as your bind in the configuration file. Otherwise,
+you will see:
+
+```
+curl http://localhost:8080
+curl: (56) Recv failure: Connection reset by peer
+```
+
+If your config file contains `open_registration=false` and `single_user=true`, you will see "Page not found".
