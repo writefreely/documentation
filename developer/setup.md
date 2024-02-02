@@ -40,21 +40,29 @@ You can now run WriteFreely! But you'll need one more step to generate some asse
 
 ### Building site assets
 
-You'll need Node.js and LESS installed to generate WriteFreely static assets. Install LESS:
+You'll need Node.js and LESS installed to generate WriteFreely static assets. Install LESS using our utility script:
 
 ```bash
-npm install less less-plugin-clean-css
+./less/install-less.sh
 ```
 
 Next, compile all stylesheets from the `less` directory, creating them in the `static/css/` directory:
 
 ```bash
 cd less
-LESSC=../node_modules/less/bin/lessc
 CSSDIR=../static/css
-$LESSC app.less --clean-css="--s1 --advanced" ${CSSDIR}/write.css
-$LESSC fonts.less --clean-css="--s1 --advanced" ${CSSDIR}/fonts.css
-$LESSC icons.less --clean-css="--s1 --advanced" ${CSSDIR}/icons.css
+lessc app.less --clean-css="--s1 --advanced" ${CSSDIR}/write.css
+lessc fonts.less --clean-css="--s1 --advanced" ${CSSDIR}/fonts.css
+lessc icons.less --clean-css="--s1 --advanced" ${CSSDIR}/icons.css
+lessc prose.less --clean-css="--s1 --advanced" ${CSSDIR}/prose.css
+```
+
+Finally, build ProseMirror:
+
+```bash
+cd ../prose
+npm install
+npm run-script build
 ```
 
 Now you can run and distribute WriteFreely! 🎉
