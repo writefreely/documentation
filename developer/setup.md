@@ -4,8 +4,8 @@ Ready to hack on your site? Here's a quick overview.
 
 ## Prerequisites
 
-* [Go 1.13+](https://golang.org/dl/)
-* [Node.js](https://nodejs.org/en/download/)
+* [Go 1.19+](https://golang.org/dl/)
+* [Node.js 15+](https://nodejs.org/en/download/)
 
 ## Quick start
 
