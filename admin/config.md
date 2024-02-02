@@ -87,6 +87,15 @@ These fields are experimental and subject to change with little notice. _Using t
 | `forest` | When enabled, certain unimportant details ("trees") are hidden from admin view, such as the Application Monitor. Meant for managed hosting environments. | false |
 | `chorus` | Indicates this instance is optimized for everyone's collective voice, rather than individuals. Meant for writing groups, company instances, etc. See Chorus docs for more info. | false |
 
+## Email
+
+Configure the `[email]` section to enable password resets and other email-based functionality. Today, WriteFreely only supports Mailgun as a sending provider.
+
+| Field             | Description                | Example value      |
+|-------------------|----------------------------|--------------------|
+| `domain`          | Domain to send emails from | writeasletters.com |
+| `mailgun_private` | Mailgun private key        | _key-..._          |
+
 ## OAuth
 
 There are several possible OAuth configuration blocks for different implementations.
