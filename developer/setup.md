@@ -30,14 +30,6 @@ git clone https://github.com/writefreely/writefreely.git
 cd writefreely
 ```
 
-Next, install the bindata generator and create `bindata.go` (needed for a successful build).
-
-```bash
-GOPATH=${GOPATH:-$HOME/go/bin}
-go install github.com/jteeuwen/go-bindata/go-bindata
-${GOPATH}/go-bindata -pkg writefreely -ignore=\\.gitignore schema.sql sqlite.sql
-```
-
 Finally, build the `writefreely` binary with SQLite support. (Remove `-tags='sqlite'` if you don't need SQLite support.)
 
 ```bash
