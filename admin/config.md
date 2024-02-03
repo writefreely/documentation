@@ -89,12 +89,17 @@ These fields are experimental and subject to change with little notice. _Using t
 
 ## Email
 
-Configure the `[email]` section to enable password resets and other email-based functionality. Today, WriteFreely only supports Mailgun as a sending provider.
+Configure the `[email]` section to enable password resets and other email-based functionality. Today, WriteFreely only supports [Mailgun](https://mailgun.com) as a sending provider.
 
 | Field             | Description                | Example value      |
 |-------------------|----------------------------|--------------------|
 | `domain`          | Domain to send emails from | writeasletters.com |
 | `mailgun_private` | Mailgun private key        | _key-..._          |
+
+With both configuration values set, your instance will have the following email-based functionality automatically enabled:
+
+* **Forgot Password functionality**. Users will find a link on the _login_ page that allows them to reset their password via email.
+* **Email subscriptions / newsletters**. Blog authors can optionally let readers subscribe to their blog posts via email, and optionally supply an email address where readers can privately reply. Authors will also have access to their subscribers list.
 
 ## OAuth
 
