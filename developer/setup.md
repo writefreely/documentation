@@ -12,9 +12,9 @@ Ready to hack on your site? Here's a quick overview.
 After installing Go and Node.js, run the following commands to build, configure, and run the application.
 
 ```bash
-go get -d github.com/writefreely/writefreely/cmd/writefreely
+go install github.com/writefreely/writefreely/cmd/writefreely@latest
 
-cd $GOPATH/src/github.com/writefreely/writefreely
+cd $GOPATH/pkg/mod/github.com/writefreely/writefreely@*
 
 make build   # Compile the application
 make install # Config, generate keys, setup database, install LESS compiler
