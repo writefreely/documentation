@@ -56,7 +56,7 @@ The following fields are valid in the `[app]` section of your configuration file
 | ----- | ----------- | ------- |
 | `site_name` | Name of the website, publicly shown in several places | Our Community |
 | `site_description` | Site description, shown in NodeInfo | A place to write freely. |
-| `host` | Full hostname (including scheme) users will see | https://pencil.writefree.ly |
+| `host` | Full hostname (including scheme) users will see | https://pen.writefree.ly |
 | `editor` | The editor template file all users will use. Default: `pad`, other options: `bare`, `classic`. | classic |
 | `single_user` | Whether or not the instance is for one blog | false |
 | `min_username_len` | Minimum required length of usernames | 3 |
