@@ -159,10 +159,10 @@ Link to your email by putting `mailto:` in front of it:
 ### Inline Code
 
 ```markdown
-Download the command-line client and run `./writeas new`
+HTML documents start with `<html>`
 ```
 
-Download the command-line client and run `./writeas new`
+HTML documents start with `<html>`
 
 ---
 
