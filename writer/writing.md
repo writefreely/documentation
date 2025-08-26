@@ -63,10 +63,10 @@ __This is bold, too__
 _Here's some **emphatic** text._
 ```
 
-*This is italic*
+*This is italic*<br>
 _This is italic, too_
 
-**This is bold**
+**This is bold**<br>
 __This is bold, too__
 
 _Here's some **emphatic** text._
@@ -129,7 +129,7 @@ _Here's some **emphatic** text._
 https://writefreely.org
 [A user guide](https://writefreely.org/docs)
 ```
-https://writefreely.org
+https://writefreely.org<br>
 [A user guide](https://writefreely.org/docs)
 
 ---
