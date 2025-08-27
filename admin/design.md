@@ -1,6 +1,6 @@
 # Custom Design
 
-Customize the design of your entire WriteFreely instance by creating a stylesheet at the following location.
+Customize the design of your WriteFreely instance by creating a stylesheet at the following location. This will load and apply a default style across all pages on your WriteFreely instance.
 
 ```
 {static_parent_dir}/static/local/custom.css
