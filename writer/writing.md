@@ -132,7 +132,7 @@ https://writefreely.org
 https://writefreely.org<br>
 [A user guide](https://writefreely.org/docs)
 
----
+#### Email links
 
 Link to your email by putting `mailto:` in front of it:
 
