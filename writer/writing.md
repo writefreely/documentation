@@ -31,6 +31,8 @@ way to indicate that was our title, it will also display normally with
 the rest of the text on the post itself.
 ```
 
+---
+
 ## Formatting text
 
 You can format text on WriteFreely with a special kind of syntax called _Markdown_, which uses special characters to indicate bold, italic, and other text. If you've used Markdown before, you'll be right at home here.
@@ -48,6 +50,8 @@ You can format text on WriteFreely with a special kind of syntax called _Markdow
 ### This is a smaller header (h3)
 ###### This is the smallest header you can make (h6)
 
+---
+
 ### Emphasis
 ```markdown
 *This is italic*
@@ -59,13 +63,15 @@ __This is bold, too__
 _Here's some **emphatic** text._
 ```
 
-*This is italic*
+*This is italic*<br>
 _This is italic, too_
 
-**This is bold**
+**This is bold**<br>
 __This is bold, too__
 
 _Here's some **emphatic** text._
+
+---
 
 ### Lists
 
@@ -106,6 +112,8 @@ _Here's some **emphatic** text._
 1. Finally a third thing
 1. And so on
 
+---
+
 ### Images
 ```markdown
 ![Cosmic radiation](https://i.snap.as/T05UTpx.jpg)
@@ -113,14 +121,18 @@ _Here's some **emphatic** text._
 
 ![Cosmic radiation](https://i.snap.as/T05UTpx.jpg)
 
+---
+
 ### Links
 
 ```markdown
 https://writefreely.org
 [A user guide](https://writefreely.org/docs)
 ```
-https://writefreely.org
+https://writefreely.org<br>
 [A user guide](https://writefreely.org/docs)
+
+#### Email links
 
 Link to your email by putting `mailto:` in front of it:
 
@@ -129,6 +141,8 @@ Link to your email by putting `mailto:` in front of it:
 ```
 
 [Contact me](mailto:hello@example.com)
+
+---
 
 ### Quotes
 
@@ -140,13 +154,17 @@ Link to your email by putting `mailto:` in front of it:
 > Wherever you go,
 > there you are.
 
+---
+
 ### Inline Code
 
 ```markdown
-Download the command-line client and run `./writeas new`
+HTML documents start with `<html>`
 ```
 
-Download the command-line client and run `./writeas new`
+HTML documents start with `<html>`
+
+---
 
 ### Syntax-highlighted Code Blocks
 
