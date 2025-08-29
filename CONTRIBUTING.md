@@ -88,4 +88,4 @@ Once you've finished writing, you'll want to commit your changes and open a pull
 
 ### Commit messages
 
-We highly value commit messages that follow established form within the project. See our [WriteFreely commit guidelines](https://github.com/writeas/writefreely/blob/develop/CONTRIBUTING.md#commit-messages) for best practices.
+We highly value commit messages that follow established form within the project. See our [WriteFreely commit guidelines](https://github.com/writefreely/writefreely/blob/develop/CONTRIBUTING.md#commit-messages) for best practices.

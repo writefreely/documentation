@@ -16,4 +16,4 @@ Contributions are welcome from everyone, whether that's in the form of new docum
 
 ## Releases
 
-Documentation on `master` is kept up-to-date with the [writefreely `master` branch](https://github.com/writeas/writefreely). When a new WriteFreely release is made, the documentation should be up-to-date with it and tagged with a version number that matches the writefreely repo.
+Documentation on `main` is kept up-to-date with the [writefreely `main` branch](https://github.com/writefreely/writefreely). When a new WriteFreely release is made, the documentation should be up-to-date with it and tagged with a version number that matches the writefreely repo.
