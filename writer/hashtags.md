@@ -10,7 +10,7 @@ _NOTE: Hashtags will only auto-link on blog posts, not Draft posts._
 
 If ```local_timeline``` is enabled, hashtags are searchable in your instance's reader. All you need to do is add "/t/hashtag" to the instance reader url to find public posts that use that hashtag. Here is an example:
 
-[personaljournal.ca/read/t/SingularityNet](https://personaljournal.ca/read/t/SingularityNet)
+[pen.writefree.ly/read/t/introduction](https://pen.writefree.ly/read/t/introduction)
 
 ## Hashtags on Fediverse
 
