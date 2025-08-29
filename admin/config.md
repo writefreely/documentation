@@ -89,17 +89,41 @@ These fields are experimental and subject to change with little notice. _Using t
 
 ## Email
 
-Configure the `[email]` section to enable password resets and other email-based functionality. Today, WriteFreely only supports [Mailgun](https://mailgun.com) as a sending provider.
-
-| Field             | Description                | Example value      |
-|-------------------|----------------------------|--------------------|
-| `domain`          | Domain to send emails from | writeasletters.com |
-| `mailgun_private` | Mailgun private key        | _key-..._          |
-
-With both configuration values set, your instance will have the following email-based functionality automatically enabled:
+Configure the `[email]` section to enable password resets and other email-based functionality. With a provider fully configured, your instance will have the following email-based functionality automatically enabled:
 
 * **Forgot Password functionality**. Users will find a link on the _login_ page that allows them to reset their password via email.
-* **Email subscriptions / newsletters**. Blog authors can optionally let readers subscribe to their blog posts via email, and optionally supply an email address where readers can privately reply. Authors will also have access to their subscribers list.
+* **Email subscriptions / newsletters**. Blog authors can let readers subscribe to their blog posts via email, and optionally supply an email address where readers can privately reply. Authors will also have access to their subscribers list.
+
+WriteFreely supports configuring either a generic bulk email sender via SMTP, or [Mailgun](https://mailgun.com).
+
+For all providers, you'll set the following value:
+
+| Field             | Description                                                                         | Example value      |
+|-------------------|-------------------------------------------------------------------------------------|--------------------|
+| `domain`          | Domain where all of your messages will originate (can be different from web domain) | writeasletters.com |
+
+Next, supply additional configuration values depending on your bulk email provider.
+
+### SMTP
+
+Configure these values to send via SMTP and use any provider you'd like.
+
+| Field                   | Description               | Example value |
+|-------------------------|---------------------------|---------------|
+| `smtp_host`             | SMTP provider hostname    | example.com   |
+| `smtp_port`             | SMTP provider port number | 587           |
+| `smtp_username`         | SMTP provider username    | username      |
+| `smtp_password`         | SMTP provider password    | password      |
+| `smtp_enable_start_tls` | Whether to use STARTTLS   | `true`        |
+
+### Mailgun
+
+Supply these values to use Mailgun as your sending provider.
+
+| Field             | Description                             | Example value      |
+|-------------------|-----------------------------------------|--------------------|
+| `mailgun_private` | Mailgun private key                     | _key-..._          |
+| `mailgun_europe`  | Whether to use European Mailgun servers | `true`             |
 
 ## OAuth
 
